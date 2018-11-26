@@ -2,6 +2,8 @@
 #include <cstdlib>
 #include <ctime>
 
+//file to test features for main code to use
+
 int chooseValue(){
 	srand(time(NULL));
 	int randomNum = rand() % 13 + 1;
